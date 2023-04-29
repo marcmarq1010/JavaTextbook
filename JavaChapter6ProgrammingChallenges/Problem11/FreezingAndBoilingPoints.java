@@ -40,19 +40,19 @@ public class FreezingAndBoilingPoints
 		return ethylBoilingPoint = temp >= 172?true:false;
 	}
 
-	public boolean isOxygenlFreezing() 
+	public boolean isOxygenFreezing() 
 	{
 		//-362
 		return oxygenlFreezingPoint = temp <=-362?true:false;
 	}
 
-	public boolean isOxygenlBoiling() 
+	public boolean isOxygenBoiling() 
 	{
 		//-306
 		return oxygenlBoilingPoint = temp >= -306?true:false;
 	}
 
-	public boolean isWaterlFreezing()
+	public boolean isWaterFreezing()
 	{
 		//32
 		return waterlFreezingPoint = temp <= 32?true:false;
